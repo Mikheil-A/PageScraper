@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    padding: 15px;
+    margin: 8px;
+    font: 50px "Warnes", Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #1b1e24, 0 0 70px #1b1e24, 0 0 80px #1b1e24, 0 0 100px #1b1e24;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+h1:hover {
+    color: #333;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+
+hr {
+    margin: 0 50px 100px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), dimgrey, rgba(0, 0, 0, 0));
+}
+
+
+/*Form*/
+form {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 50px 60px;
+    margin: 0 auto 150px;
+    width: 60%;
+    text-align: center;
+}
+label {
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.8);
+    color: #333;
+    opacity: 0.4;
+    font-size: 28px;
+    font-weight: 600;
+    margin: -50px 0 200px;
+    position: relative;
+}
+
+/*Form - submit*/
+input[type=submit] {
+    width: 40%;
+    background-color: #1b1e24;
+    color: white;
+    padding: 14px 20px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: #000 0 1px 5px 0;
+    opacity: 0.7;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+    transition-duration: 0.75s;
+}
+input[type=submit]:hover {
+    opacity: 1;
+    border-radius: 0;
+    width: 100%;
+    transition-duration: 0.75s;
+}
+input[type=text] {
+    padding: 7px;
+    font-size: 20px;
+    border: 0.5px solid #1b1e24;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 10px 0;
+    border-radius: 6px;
+    width: 80%;
+}
+input[type=text]:hover {
+    border-color: white;
+}
+input[type=text]:focus {
+    background-color: #1b1e24;
+    color: lightgray;
+    font-weight: 100;
+    border-color: #1b1e24;
+}

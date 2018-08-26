@@ -1,0 +1,33 @@
+footer {
+    position: fixed;
+    background-color: #595959;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+}
+#copyright {
+    position: relative;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#copyright span{
+    font-size:22px;
+}
+#developer {
+    font-size: 15px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    margin-right: 5px;
+}
+#developer a {
+    color: #e68a00;
+    text-decoration: none;
+    font-size: 20px;
+}
+#developer a:hover {
+    color: #ffad33;
+}
